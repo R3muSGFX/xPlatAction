@@ -4,9 +4,12 @@
              x:Class="xPlatAction.Views.MainPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+			<Label x:Name="lblMsg"
+				Text="Welcome to Xamarin.Forms!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+			<Button x:Name="btnClick" Text="Click me"
+					Clicked="BtnClick_Clicked"	/>
+		</StackLayout>
     </ContentPage.Content>
 </ContentPage>

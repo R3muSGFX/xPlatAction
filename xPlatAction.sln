@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xPlatAction.iOS", "xPlatAct
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xPlatAction.UWP", "xPlatAction\xPlatAction.UWP\xPlatAction.UWP.csproj", "{BEE7F5AF-D5B0-4E80-B462-7F01F7E23A8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xPlatAction", "xPlatAction\xPlatAction\xPlatAction.csproj", "{55A2F9F2-6817-4F10-B2D4-386253C8BC27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xPlatAction", "xPlatAction\xPlatAction\xPlatAction.csproj", "{55A2F9F2-6817-4F10-B2D4-386253C8BC27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -333,5 +333,16 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C6A9365A-C6FD-4E47-B113-DA4B955038D3}
+	EndGlobalSection
+	GlobalSection(AutomaticVersions) = postSolution
+		UpdateAssemblyVersion = True
+		UpdateAssemblyFileVersion = True
+		UpdateAssemblyInfoVersion = True
+		AssemblyVersionSettings = None.IncrementOnDemand.IncrementOnDemand.Increment
+		AssemblyFileVersionSettings = None.IncrementOnDemand.IncrementOnDemand.IncrementWithResetOnIncrease
+		AssemblyInfoVersionSettings = None.IncrementOnDemand.IncrementOnDemand.Increment
+		UpdatePackageVersion = False
+		AssemblyInfoVersionType = SettingsVersion
+		InheritWinAppVersionFrom = None
 	EndGlobalSection
 EndGlobal
